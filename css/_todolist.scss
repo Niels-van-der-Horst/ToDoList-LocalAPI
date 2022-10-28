@@ -1,0 +1,81 @@
+#todolist {
+    width: 500px;
+    height: 800px;
+    background-color: rgb(104, 156, 230);
+    box-shadow: 0px 0px 9px 1px;
+    
+}
+.title {
+    
+    padding-top: 10px;
+    background-color:  rgb(73, 124, 195);
+    border: 1px solid rgb(73, 124, 195);
+    
+}
+
+
+h1 {
+    font-family: 'Dosis';
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    font-size: 1.5em;
+    
+}
+
+.title i {
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+.add-task-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(73, 124, 195);
+    border-bottom: 1px solid grey;
+    border-bottom: 1px solid gray;
+    
+
+
+}
+.add-taskbar {
+    width: 100%;
+    height: 60px;
+
+
+}
+.add-taskbar label input {
+    font-family: 'Dosis';
+    width: 380px;
+    margin: 10px;
+    height: 30px;
+    font-size: 1.5em;
+    text-indent: 10px;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.addBtn {
+    font-family: 'Dosis';
+    border-radius: 4px;
+    width: 70px;
+    height: 35px;
+    margin: 10px 10px 10px 5px;
+    background-color: rgb(48, 224, 48);
+    font-size: 1em;
+    
+}
+
+.addBtn:hover {
+    background-color: rgb(143, 139, 139);
+}
+.innerDiv {
+
+    width: 120px;
+    height: 70px;
+    background-color: orange;
+}
