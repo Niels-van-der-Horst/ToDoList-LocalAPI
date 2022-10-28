@@ -24,7 +24,7 @@ function myfunction() {
 
     } else {
 
-        console.log("input is empty");
+        console.log("input is empty!");
        
     };
 
