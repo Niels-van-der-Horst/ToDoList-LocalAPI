@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap");
+body {
+  background-color: burlywood;
+}
+
 #todolist {
+  margin: 200px 100px 0px 500px;
   width: 500px;
   height: 800px;
   background-color: rgb(104, 156, 230);
   box-shadow: 0px 0px 9px 1px;
+  overflow-y: scroll;
+  border-radius: 3px;
 }
 
 .title {
@@ -23,7 +30,7 @@ h1 {
 }
 
 .title i {
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 1.2em;
 }
 
@@ -59,7 +66,7 @@ h1 {
   width: 70px;
   height: 35px;
   margin: 10px 10px 10px 5px;
-  background-color: rgb(48, 224, 48);
+  background-color: burlywood;
   font-size: 1em;
 }
 
@@ -68,9 +75,57 @@ h1 {
 }
 
 .innerDiv {
-  width: 120px;
+  border: 1px solid black;
+  width: 100%;
   height: 70px;
-  background-color: orange;
+  background-color: rgba(93, 170, 252, 0.857);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+input .check-box:checked {
+  color: rgb(25, 25, 168);
+  border: 5px solid black;
+  margin-left: 0px;
+}
+
+li {
+  position: relative;
+  list-style-type: none;
+  color: rgb(70, 70, 70);
+  font-size: 1.3em;
+  padding-left: 10px;
+}
+
+.active {
+  text-decoration: line-through;
+  position: relative;
+  list-style-type: none;
+  color: rgb(70, 70, 70);
+  font-size: 1.3em;
+}
+
+.fa-trash-can {
+  padding-top: 7px;
+  font-size: 0.8em;
+  position: absolute;
+  color: rgb(70, 70, 70);
+  left: 400px;
+}
+
+.fa-trash-can:hover {
+  color: rgb(0, 0, 0);
+}
+
+.fa-regular.fa-rectangle-list {
+  color: rgb(255, 255, 255);
+  left: 290px;
+  padding-top: 5px;
+  font-size: 1em;
 }
 
 body {

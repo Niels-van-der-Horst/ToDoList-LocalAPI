@@ -58,7 +58,7 @@ return value will be the newly created object and HTTP status 201.
   "name": "Ernie",
   "color": "orange",
   "mood": "happy",
-  "_id": "f5408a45-b4d0-4aee-8530-c2250481b131",
+  "": "f5408a45-b4d0-4aee-8530-c2250481b131",
   "_createdOn": "2021-01-25T14:53:49.322Z"
 }
 ```
