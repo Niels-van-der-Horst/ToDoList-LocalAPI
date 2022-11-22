@@ -197,6 +197,3 @@ function deleteItem(id)
 // //    }
 // // }
 // );
-
-
-let ruud = () =>
